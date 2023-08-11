@@ -3,7 +3,7 @@ import MenuItem from "./MenuItem";
 
 function Menu(props) {
   return (
-    <div>
+    <>        
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
             <span className="navbar-toggler-icon"></span>
         </button>
@@ -14,7 +14,7 @@ function Menu(props) {
                 ))}
             </div>
         </div>
-    </div>
+    </>
   );
 }
 export default Menu;
