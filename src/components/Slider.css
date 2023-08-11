@@ -1,9 +1,0 @@
-.slider {
-    height: 50vh;
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-  }
