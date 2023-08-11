@@ -5,7 +5,7 @@ function WelcomeSection() {
         <section className="container-fluid">
     <div>
       <div className="container">
-        <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
+        <div className="text-muted d-flex flex-column flex-md-row justify-content-center align-items-center">
             <h1 className="">Welcome to &nbsp;</h1>
             <h1 className="">Cafe Recursion</h1>
         </div>

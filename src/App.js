@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Slider from './components/Slider';
 import WelcomeSection from './components/WelcomeSection';
 import TopPageCards from './components/TopPageCards';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <Slider/>
       <WelcomeSection/>
       <TopPageCards/>
+      <Footer/>
     </div>
   );
 }
