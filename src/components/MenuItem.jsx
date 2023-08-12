@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function MenuItem(props) {
     return (
-        <a 
+        <Link 
         className="nav-item nav-link" 
-        href={props.url}>
+        to={props.url}>
             {props.name}
-        </a>
+        </Link>
     );
     }
 export default MenuItem;

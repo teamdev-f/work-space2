@@ -5,11 +5,11 @@ import Menu from './Menu';
 
 function TopPage() {
     const menuItems = [
-        {name: "Home", url: "index.html" },
-        {name: "Drink", url: "#"},
-        {name: "Sweets", url: "#"},
-        {name: "Food", url: "#"},
-        {name: "Contact", url: "#"}
+        {name: "Home", url: "/" },
+        {name: "Drink", url: "/drink"},
+        {name: "Sweets", url: "/sweets"},
+        {name: "Food", url: "/food"},
+        {name: "Contact", url: "/contact"}
     ];
 
 
