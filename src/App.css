@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  font-family: 'Nothing You Could Do', cursive;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Nothing You Could Do', cursive;
 }
