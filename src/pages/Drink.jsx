@@ -21,10 +21,18 @@ function Card(props) {
 
 function Drink() {
     const cardItems = [
-        {title:"コーヒー",fileName: "fruitsPie.jpg", content: "春のコーヒーです"},
-        {title:"キリマンジャロ",fileName: "fruitsPie.jpg", content: "山です"},
-        {title:"Coffee",fileName: "fruitsPie.jpg", content: "スターバックスです"},
-        {title:"カフェイン",fileName: "fruitsPie.jpg", content: "コーヒーです"},
+        {title:"コーヒー",fileName: "drink1.jpg", content: "春のコーヒーです"},
+        {title:"キリマンジャロ",fileName: "drink2.jpg", content: "山です"},
+        {title:"Coffee",fileName: "drink3.jpg", content: "スターバックスです"},
+        {title:"カフェイン",fileName: "drink4.jpg", content: "コーヒーです"},
+        {title:"コーヒー",fileName: "drink1.jpg", content: "春のコーヒーです"},
+        {title:"キリマンジャロ",fileName: "drink2.jpg", content: "山です"},
+        {title:"Coffee",fileName: "drink3.jpg", content: "スターバックスです"},
+        {title:"カフェイン",fileName: "drink4.jpg", content: "コーヒーです"},
+        {title:"コーヒー",fileName: "drink1.jpg", content: "春のコーヒーです"},
+        {title:"キリマンジャロ",fileName: "drink2.jpg", content: "山です"},
+        {title:"Coffee",fileName: "drink3.jpg", content: "スターバックスです"},
+        {title:"カフェイン",fileName: "drink4.jpg", content: "コーヒーです"},
     ]
   return (
         <section >
@@ -34,7 +42,7 @@ function Drink() {
                     <div className="col-md-4 col-lg-3 card-wrapper">
                         <Card key={item.fileName} content={item.content} fileName={item.fileName} title={item.title}/>
                     </div>
-                ))};
+                ))}
                
             </div>
         </section>
