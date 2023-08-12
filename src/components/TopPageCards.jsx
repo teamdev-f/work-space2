@@ -4,8 +4,8 @@ import Card from "./Card";
 
 function TopPageCards() {
     const cardItems = [
-        {fileName: "fruitsPie.jpg", content: "春の新メニュー「フルーツパイ」をご用意しました。新鮮なフルーツと生クリームのハーモニーをお楽しみください。"},
-        {fileName: "coffeeSeeds.jpg", content: "今月のお薦めは「ラムダブレンド」。やや苦みのある上品な香りのコーヒーです。"}
+        {title: "What's New?",fileName: "fruitsPie.jpg", content: "春の新メニュー「フルーツパイ」をご用意しました。新鮮なフルーツと生クリームのハーモニーをお楽しみください。"},
+        {title: "What's New?",fileName: "coffeeSeeds.jpg", content: "今月のお薦めは「ラムダブレンド」。やや苦みのある上品な香りのコーヒーです。"}
     ]
 
     return(
@@ -14,7 +14,7 @@ function TopPageCards() {
                 
                 {cardItems.map(item => (
                     <div className="col-md-12 col-lg-6 card-wrapper">
-                    <Card key={item.fileName} content={item.content} fileName={item.fileName} />
+                    <Card key={item.fileName} content={item.content} fileName={item.fileName} title={item.title}/>
                     </div>
                 ))};
                
