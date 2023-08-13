@@ -4,7 +4,12 @@ function Card(props) {
   return (
     <div className='card'>
       <div className='card-body'>
-        <h3 className='card-title text-center'>{props.title}</h3>
+        {
+          props.title &&
+          <h3 className='card-title text-center'>
+            {props.title}
+          </h3>
+        }
         <div className='d-flex justify-content-around  align-items-center'>
           <p className='card-content'>{props.content}</p>
           <div className='d-flex'>
