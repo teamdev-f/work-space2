@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Logo() {
   return (
-    <a 
-      className="navbar-brand" 
-      href="index.html">
-        Cafe Recursion
-      </a>
+    <Link className="navbar-brand" to={'/'}>
+      Cafe Recursion
+    </Link>
   );
 }
 export default Logo;

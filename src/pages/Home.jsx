@@ -10,7 +10,6 @@ function Home() {
       <Slider/>
       <WelcomeSection/>
       <TopPageCards/>
-      
     </>
   );
 }
