@@ -8,16 +8,17 @@ function TopPageCards() {
         {title: "What's New?",fileName: "coffeeSeeds.jpg", content: "今月のお薦めは「ラムダブレンド」。やや苦みのある上品な香りのコーヒーです。", key:1}
     ]
 
-    return(
-        <section >
-            <div className="row">
-                {cardItems.map((item, idx) => (
-                    <div className="col-md-12 col-lg-6 card-wrapper">
-                        <Card key={`top-${idx}`} content={item.content} fileName={item.fileName} title={item.title}/>
-                    </div>
-                ))};
+    return (
+      <section>
+        <div className="row">
+          {cardItems.map((item, idx) => (
+            <div key={`top-${idx}`} className="col-md-12 col-lg-6 card-wrapper">
+              <Card content={item.content} fileName={item.fileName} title={item.title} />
             </div>
-        </section>
+          ))}
+          ;
+        </div>
+      </section>
     );
 }
 
