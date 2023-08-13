@@ -9,8 +9,8 @@ function Menu(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarMenu">
             <div className="nav navbar-nav">
-                {props.items.map(item => (
-                    <MenuItem key={item.name} name={item.name} url={item.url} />
+                {props.items.map((item, idx) => (
+                    <MenuItem key={"menu-" + idx} name={item.name} url={item.url} />
                 ))}
             </div>
         </div>

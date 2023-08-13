@@ -14,7 +14,7 @@ function App() {
                 <Route
                     path={route.path}
                     element={React.createElement(route.component)}
-                    key={idx}
+                    key={"route-"+idx}
                 />
             ))}
         </Routes>
