@@ -31,9 +31,9 @@ function Drink() {
   return (
     <section>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        {cardItems.map((item, idx) => (
-          <div className="col col-md-4 col-lg-3 card-wrapper">
-            <Card key={'drink-' + item.id} content={item.content} fileName={item.fileName} title={item.title} />
+        {cardItems.map((item) => (
+          <div key={'drink-' + item.id} className="col col-md-4 col-lg-3 card-wrapper">
+            <Card content={item.content} fileName={item.fileName} title={item.title} />
           </div>
         ))}
       </div>
